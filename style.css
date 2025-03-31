@@ -1,0 +1,48 @@
+*{
+    font-family: Century,serif;
+    text-align: center;
+    margin: 0;
+}
+footer, header{
+    background-color: indigo;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+}
+.block{
+    width: 50%;
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    padding: 3px;
+    margin: 10px;
+    border: 2px slateblue dashed;
+}
+a{
+    color: white;
+}
+button,.button{
+    background-color: slateblue;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 10px;
+    width: fit-content;
+
+}
+button:hover{
+    background-color: indigo;
+}
+input.range{
+    width: 80%;
+}
+.block-row{
+    display: flex;
+}

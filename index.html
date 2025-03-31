@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Efekty obrazu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2>Efekty na obrazach</h2>
+    </header>
+    <main>
+        <section class="block-row">
+            <div class="block">
+                <img src="image.png"  class="flower" alt="pszczoła na fioletowym kwiatku" width="400px" height="300px">
+           
+            
+            <label for=""> <input type="radio"  id="blur"    name="color"> Blur</label>
+            <label for=""><input type="radio"  id="serpia"  name="color"> Serpia</label>
+            <label for=""> <input type="radio"  id="negatyw" name="color">Negatyw</label>
+            <input type="submit" value="Zastosuj" class="button color-sub">
+        </div>
+            <div class="block">
+                <img src="bee.png" class="bee" alt="pszczoła na fioletowym kwiatku" width="400px" height="300px">
+                <div class="buttons">
+                    <button id="colored">Kolorowy</button>
+                    <button id="blackwhite">Czarno-biały</button>
+                </div>
+            </div>
+        </section>
+        <section class="block-row">
+            <div class="block">
+                <img src="cloud.png" class="cloud" alt="pszczoła na fioletowym kwiatku" width="400px" height="300px">
+                <input type="range" name="cloudRange" min="0" max="100" value="100" class="range cloudRange">
+                <input type="submit" value="Zastosuj" class="button cloudButton">
+            </div>
+            <div class="block">
+                <img src="dog.png" class="dog" alt="pszczoła na fioletowym kwiatku" width="400px" height="300px">
+                <input type="range" name="dog" min="0" max="250" class="range dogRange">
+                <input type="submit" value="Zastosuj" class="button dogButton">
+            </div>
+        </section>
+       
+    </main>
+    <footer>
+        <a href="https://example.com/">https://example.com/</a>
+        <h6>Zrobil: iirdnA kyniilO</h6>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
